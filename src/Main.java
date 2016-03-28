@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 
 
+
+//i changed some code yo
 public class Main extends JFrame {
 
     public Main() {
@@ -13,8 +15,8 @@ public class Main extends JFrame {
 
     public static void main(String[] args) {
 
-        Main window = new Main();
         Arm arm1 = new Arm(300, 300, 0, 10, 200, 50);
+        Main window = new Main();
 
         //Testing:
         arm1.print();
